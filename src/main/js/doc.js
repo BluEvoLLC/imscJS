@@ -1853,7 +1853,7 @@
 
 
 })(typeof exports === 'undefined' ? this.imscDoc = {} : exports,
-        typeof sax === 'undefined' ? require("sax") : sax,
+        typeof sax === 'undefined' ? require("@bluevollc/sax") : sax,
         typeof imscNames === 'undefined' ? require("./names") : imscNames,
         typeof imscStyles === 'undefined' ? require("./styles") : imscStyles,
         typeof imscUtils === 'undefined' ? require("./utils") : imscUtils);

@@ -39,7 +39,7 @@ module.exports = function (grunt) {
             default: {
                 files: {
                     '<%= properties.webappBuildDir %>/libs/': [
-                        'sax:main',
+                        '@bluevollc/sax:main',
                         'qunit-assert-close:main',
                         'qunitjs:main',
                         'filesaver.js-npm:main',
@@ -54,7 +54,7 @@ module.exports = function (grunt) {
                 src: "<%= pkg.main %>",
                 dest: "<%= properties.umdBuildDir %>/<%= properties.umdDebugName %>",
                 options: {
-                    exclude: ["sax"],
+                    exclude: ["@bluevollc/sax"],
                     browserifyOptions: {
                         standalone: 'imsc'
                     }
