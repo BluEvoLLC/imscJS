@@ -30,7 +30,7 @@
     "main": "src/main/js/main.js",
     "unpkg": "dist/imsc.min.js",
     "scripts": {
-        "prepublishOnly": "grunt build:release"
+        "prepublishOnly": "grunt build:release --force"
     },
     "devDependencies": {
         "browserify": "^16.2.3",
