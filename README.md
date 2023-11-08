@@ -4,7 +4,11 @@
     | | | '_ ` _ \  / __|  / __|  _   | |  \___ \ 
     | | | | | | | | \__ \ | (__  | |__| |  ____) |
     |_| |_| |_| |_| |___/  \___|  \____/  |_____/ 
-                                                  
+
+
+# NOTE FROM BLU DIGITAL
+
+We appreciate all of the hard work that has gone into this package, unfortunately, its singular dependency (Sax) has a bit of a breaking issue thanks to using Node's global stream (not something browsers are too thrilled with).  This fork shifts to using our updated library for our projects.
                                   
                                   
 INTRODUCTION
